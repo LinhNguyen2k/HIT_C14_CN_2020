@@ -66,7 +66,7 @@ void hang_tong_max(int c[][6], int n, int m)
     int max = tinh_tong(c,0,m);
 	for(int i = 1; i < n; i++)
 	{
-		if(max >tinh_tong(c,i,m))
+		if(max <tinh_tong(c,i,m))
         {
             max = tinh_tong(c,i,m);
         }
