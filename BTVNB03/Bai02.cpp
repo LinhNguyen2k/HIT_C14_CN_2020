@@ -18,7 +18,8 @@ void Xuat(int a[] , int n)
 }
 void fuction1(int a[] , int n)
 {
-    int max1 =a[0], min1=a[0],F=0,sum=0;
+    int max1 =a[0], min1=a[0],sum=0;
+    float F =0;
     for(int i=0;i<n;i++)
     {
         sum+=a[i];
