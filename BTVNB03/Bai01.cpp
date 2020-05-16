@@ -9,7 +9,7 @@ void Nhap(int &a)
 
         cin>>a;
 
-        if(a<0 || a>= 100)
+        if(a<0 || a>= 1000)
         {
             cout<<"Nhap lai!!";
         }
